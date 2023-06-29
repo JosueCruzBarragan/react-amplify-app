@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hola desde dev Amplify test</h1>
-        <h1>{process.env.amplify_var}</h1>
+        <h1>var: ${process.env.amplify_var}</h1>
 
         <a
           className="App-link"
